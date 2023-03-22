@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #define MAX(a,b)(((a)>(b))?(a):(b))
 #define MAX_DEGREE 101
 typedef struct {
@@ -57,6 +58,6 @@ int main(void)
 	printf("----------------------------------------------------------------------------\n");
 	print_poly(c2);
 
-
+	system("pause");
 	return 0;
 }
